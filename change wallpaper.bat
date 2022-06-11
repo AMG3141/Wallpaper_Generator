@@ -19,7 +19,7 @@ set fullTime=%hh%-%min%-%ss%
 rename "<SKETCH DIRECTORY>\Wallpapers\wallpaper.bmp" "%fullDate% %fullTime%.bmp"
 
 :: Run the sketch to get the new wallpaper
-"<LOCATION OF 'processing-java.exe'>" --sketch="<SKETCH DIRECTORY" --run
+"<LOCATION OF 'processing-java.exe'>" --sketch="<SKETCH DIRECTORY>" --run
 
 :: Remove the old wallpaper
 del "C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Themes\TranscodedWallpaper"
